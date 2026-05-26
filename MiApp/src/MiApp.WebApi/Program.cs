@@ -1,6 +1,7 @@
 // Program.cs
 using MiApp.Application;
 using MiApp.Infrastructure;
+using MiApp.Infrastructure.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,6 +14,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+app.UseExceptionHandler(); // <-- DEBE SER EL PRIMERO
 
 // Configurar el pipeline de solicitudes HTTP
 if (app.Environment.IsDevelopment())

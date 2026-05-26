@@ -58,6 +58,17 @@ public class Product : BaseEntity
         Stock -= quantity;
     }
 
+public void Reserve(int quantity)
+    {
+        if (quantity <= 0)
+            throw new DomainRuleException("La cantidad a reservar debe ser mayor a cero.");
+
+        if (quantity > Stock)
+            throw new InsufficientStockException(quantity, Stock);
+
+        Stock -= quantity;
+    }
+    
     public void Deactivate() => IsActive = false;
     public void Activate() => IsActive = true;
 }

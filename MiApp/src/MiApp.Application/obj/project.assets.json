@@ -15,6 +15,26 @@
           }
         }
       },
+      "FluentValidation.AspNetCore/11.3.1": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "11.11.0",
+          "FluentValidation.DependencyInjectionExtensions": "11.11.0"
+        },
+        "compile": {
+          "lib/net6.0/FluentValidation.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentValidation.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "FluentValidation.DependencyInjectionExtensions/12.1.1": {
         "type": "package",
         "dependencies": {
@@ -204,6 +224,25 @@
         "fluentvalidation.nuspec",
         "lib/net8.0/FluentValidation.dll",
         "lib/net8.0/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.AspNetCore/11.3.1": {
+      "sha512": "FjkfrGGwC+25oH8QpX1ti3gxkFjDDtotkAQWyQz2CkwQwEfRKTANjhh77I79kY8dov2ydK1SY+e4jiOWsbbDdQ==",
+      "type": "package",
+      "path": "fluentvalidation.aspnetcore/11.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",
+        "fluentvalidation.aspnetcore.nuspec",
+        "lib/net5.0/FluentValidation.AspNetCore.dll",
+        "lib/net5.0/FluentValidation.AspNetCore.xml",
+        "lib/net6.0/FluentValidation.AspNetCore.dll",
+        "lib/net6.0/FluentValidation.AspNetCore.xml",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.dll",
+        "lib/netcoreapp3.1/FluentValidation.AspNetCore.xml"
       ]
     },
     "FluentValidation.DependencyInjectionExtensions/12.1.1": {
@@ -495,6 +534,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "FluentValidation >= 12.1.1",
+      "FluentValidation.AspNetCore >= 11.3.1",
       "FluentValidation.DependencyInjectionExtensions >= 12.1.1",
       "MediatR >= 14.1.0",
       "MiApp.Domain >= 1.0.0"
@@ -506,11 +546,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\miapp\\src\\MiApp.Application\\MiApp.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\MiApp\\src\\MiApp.Application\\MiApp.Application.csproj",
       "projectName": "MiApp.Application",
-      "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\miapp\\src\\MiApp.Application\\MiApp.Application.csproj",
+      "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\MiApp\\src\\MiApp.Application\\MiApp.Application.csproj",
       "packagesPath": "C:\\Users\\Nacho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\miapp\\src\\MiApp.Application\\obj\\",
+      "outputPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\MiApp\\src\\MiApp.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nacho\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -549,6 +589,10 @@
           "FluentValidation": {
             "target": "Package",
             "version": "[12.1.1, )"
+          },
+          "FluentValidation.AspNetCore": {
+            "target": "Package",
+            "version": "[11.3.1, )"
           },
           "FluentValidation.DependencyInjectionExtensions": {
             "target": "Package",

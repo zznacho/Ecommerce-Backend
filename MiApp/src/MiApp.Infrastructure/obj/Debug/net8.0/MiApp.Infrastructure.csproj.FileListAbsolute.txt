@@ -16,3 +16,5 @@ C:\Users\Nacho\Desktop\inacio\Estoy podrido\MiApp\src\MiApp.Infrastructure\obj\D
 C:\Users\Nacho\Desktop\inacio\Estoy podrido\MiApp\src\MiApp.Infrastructure\obj\Debug\net8.0\refint\MiApp.Infrastructure.dll
 C:\Users\Nacho\Desktop\inacio\Estoy podrido\MiApp\src\MiApp.Infrastructure\obj\Debug\net8.0\MiApp.Infrastructure.pdb
 C:\Users\Nacho\Desktop\inacio\Estoy podrido\MiApp\src\MiApp.Infrastructure\obj\Debug\net8.0\ref\MiApp.Infrastructure.dll
+C:\Users\Nacho\Desktop\inacio\Estoy podrido\MiApp\src\MiApp.Infrastructure\bin\Debug\net8.0\MiApp.Infrastructure.runtimeconfig.json
+C:\Users\Nacho\Desktop\inacio\Estoy podrido\MiApp\src\MiApp.Infrastructure\obj\Debug\net8.0\MiApp.Infrastructure.genruntimeconfig.cache

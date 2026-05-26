@@ -37,3 +37,14 @@ C:\Users\Nacho\Desktop\inacio\Estoy podrido\MiApp\src\MiApp.WebApi\obj\Debug\net
 C:\Users\Nacho\Desktop\inacio\Estoy podrido\MiApp\src\MiApp.WebApi\obj\Debug\net8.0\MiApp.WebApi.pdb
 C:\Users\Nacho\Desktop\inacio\Estoy podrido\MiApp\src\MiApp.WebApi\obj\Debug\net8.0\MiApp.WebApi.genruntimeconfig.cache
 C:\Users\Nacho\Desktop\inacio\Estoy podrido\MiApp\src\MiApp.WebApi\obj\Debug\net8.0\ref\MiApp.WebApi.dll
+C:\Users\Nacho\Desktop\inacio\Estoy podrido\MiApp\src\MiApp.WebApi\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Nacho\Desktop\inacio\Estoy podrido\MiApp\src\MiApp.WebApi\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Nacho\Desktop\inacio\Estoy podrido\MiApp\src\MiApp.WebApi\bin\Debug\net8.0\MediatR.dll
+C:\Users\Nacho\Desktop\inacio\Estoy podrido\MiApp\src\MiApp.WebApi\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\Nacho\Desktop\inacio\Estoy podrido\MiApp\src\MiApp.WebApi\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Nacho\Desktop\inacio\Estoy podrido\MiApp\src\MiApp.WebApi\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Nacho\Desktop\inacio\Estoy podrido\MiApp\src\MiApp.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Nacho\Desktop\inacio\Estoy podrido\MiApp\src\MiApp.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Nacho\Desktop\inacio\Estoy podrido\MiApp\src\MiApp.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Nacho\Desktop\inacio\Estoy podrido\MiApp\src\MiApp.WebApi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Nacho\Desktop\inacio\Estoy podrido\MiApp\src\MiApp.WebApi\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll

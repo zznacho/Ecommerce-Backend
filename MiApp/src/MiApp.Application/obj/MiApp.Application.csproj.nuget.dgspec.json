@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\MiApp\\src\\MiApp.Application\\MiApp.Application.csproj": {}
+    "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Application\\MiApp.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\MiApp\\src\\MiApp.Application\\MiApp.Application.csproj": {
+    "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Application\\MiApp.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\MiApp\\src\\MiApp.Application\\MiApp.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Application\\MiApp.Application.csproj",
         "projectName": "MiApp.Application",
-        "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\MiApp\\src\\MiApp.Application\\MiApp.Application.csproj",
+        "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Application\\MiApp.Application.csproj",
         "packagesPath": "C:\\Users\\Nacho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\MiApp\\src\\MiApp.Application\\obj\\",
+        "outputPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nacho\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\MiApp\\src\\MiApp.Domain\\MiApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\MiApp\\src\\MiApp.Domain\\MiApp.Domain.csproj"
+              "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Domain\\MiApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Domain\\MiApp.Domain.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\MiApp\\src\\MiApp.Domain\\MiApp.Domain.csproj": {
+    "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Domain\\MiApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\MiApp\\src\\MiApp.Domain\\MiApp.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Domain\\MiApp.Domain.csproj",
         "projectName": "MiApp.Domain",
-        "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\MiApp\\src\\MiApp.Domain\\MiApp.Domain.csproj",
+        "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Domain\\MiApp.Domain.csproj",
         "packagesPath": "C:\\Users\\Nacho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\MiApp\\src\\MiApp.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nacho\\AppData\\Roaming\\NuGet\\NuGet.Config"

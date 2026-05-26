@@ -452,11 +452,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\MiApi\\MiApi.csproj",
+      "projectUniqueName": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApi\\MiApi.csproj",
       "projectName": "MiApi",
-      "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\MiApi\\MiApi.csproj",
+      "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApi\\MiApi.csproj",
       "packagesPath": "C:\\Users\\Nacho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\MiApi\\obj\\",
+      "outputPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nacho\\AppData\\Roaming\\NuGet\\NuGet.Config"

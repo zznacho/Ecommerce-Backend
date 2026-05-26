@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+0t7gw79msA=",
+  "dgSpecHash": "3HbwLMzUhP8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\miapp\\src\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nacho\\.nuget\\packages\\bcrypt.net-next\\4.0.2\\bcrypt.net-next.4.0.2.nupkg.sha512",
     "C:\\Users\\Nacho\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",

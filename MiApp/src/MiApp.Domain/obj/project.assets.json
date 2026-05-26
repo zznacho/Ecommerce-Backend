@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\MiApp\\src\\MiApp.Domain\\MiApp.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApp\\src\\MiApp.Domain\\MiApp.Domain.csproj",
       "projectName": "MiApp.Domain",
-      "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\MiApp\\src\\MiApp.Domain\\MiApp.Domain.csproj",
+      "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApp\\src\\MiApp.Domain\\MiApp.Domain.csproj",
       "packagesPath": "C:\\Users\\Nacho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\MiApp\\src\\MiApp.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApp\\src\\MiApp.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nacho\\AppData\\Roaming\\NuGet\\NuGet.Config"

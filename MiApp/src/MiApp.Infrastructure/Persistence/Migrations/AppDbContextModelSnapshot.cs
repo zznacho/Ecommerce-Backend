@@ -164,6 +164,26 @@ namespace MiApp.Infrastructure.Persistence.Migrations
                     b.HasIndex("Email")
                         .IsUnique();
 
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("d1111111-0000-0000-0000-000000000001"),
+                            Email = "admin@example.com",
+                            Name = "Administrator",
+                            PasswordHash = "$2a$10$CwTycUXWue0Thq9StjUM0uJ8hQ0/0VY8aYH8G1q1GdR1eF/3h6K6",
+                            Role = "Admin",
+                            CreatedAt = new DateTime(2026, 5, 26, 0, 0, 0, DateTimeKind.Utc)
+                        },
+                        new
+                        {
+                            Id = new Guid("d2222222-0000-0000-0000-000000000002"),
+                            Email = "user@example.com",
+                            Name = "Default User",
+                            PasswordHash = "$2a$10$7s8h4eGg6Qp0a1b2c3d4eO0a1b2c3d4eFghIjKlmnOpQrStUvWxYZa",
+                            Role = "User",
+                            CreatedAt = new DateTime(2026, 5, 26, 0, 0, 0, DateTimeKind.Utc)
+                        });
+
                     b.ToTable("Users", (string)null);
                 });
 

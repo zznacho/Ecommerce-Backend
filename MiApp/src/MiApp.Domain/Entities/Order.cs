@@ -26,7 +26,7 @@ public class Order
 
     public void AddItem(Product product, int quantity)
     {
-        product.ReduceStock(quantity); // Regla de negocio que ya tenías
+        product.RemoveStock(quantity); // Regla de negocio que ya tenías
         var item = new OrderItem(Id, product.Id, product.Price, quantity);
         _items.Add(item);
         Total += item.Subtotal;

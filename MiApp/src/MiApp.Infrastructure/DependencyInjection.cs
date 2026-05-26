@@ -2,9 +2,13 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using MiApp.Application.Interfaces; 
 using MiApp.Domain.Interfaces;
 using MiApp.Infrastructure.Persistence;
-using MiApp.Infrastructure.Repositories;
+
+// Usings clave para que encuentre tus repositorios viejos y nuevos:
+using MiApp.Infrastructure.Repositories; 
+using MiApp.Infrastructure.Persistence.Repositories;
 
 namespace MiApp.Infrastructure;
 
@@ -20,6 +24,8 @@ public static class DependencyInjection
 
         // 2. Registrar las implementaciones concretas del negocio
         services.AddScoped<IProductRepository, ProductRepository>();
+        services.AddScoped<IOrderRepository, OrderRepository>(); 
+        services.AddScoped<IUserRepository, UserRepository>();   
         services.AddScoped<IUnitOfWork, UnitOfWork>();
 
         return services;

@@ -5,8 +5,11 @@ using MiApp.Application.Features.Products.Commands.CreateProduct;
 
 namespace MiApp.WebApi.Controllers;
 
+using Microsoft.AspNetCore.Authorization;
+
 [ApiController]
 [Route("api/[controller]")]
+[Authorize]
 public class ProductsController : ControllerBase
 {
     private readonly ISender _mediator;

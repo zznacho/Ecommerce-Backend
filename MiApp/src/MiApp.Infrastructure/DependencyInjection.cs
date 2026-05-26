@@ -28,6 +28,9 @@ public static class DependencyInjection
         services.AddScoped<IUserRepository, UserRepository>();   
         services.AddScoped<IUnitOfWork, UnitOfWork>();
 
+        // Servicio de tokens JWT
+        services.AddScoped<MiApp.Application.Interfaces.ITokenService, MiApp.Infrastructure.Services.JwtTokenService>();
+
         return services;
     }
 }

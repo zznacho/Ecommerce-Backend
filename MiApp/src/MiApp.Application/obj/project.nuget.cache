@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Wzj42wBTcA0=",
+  "dgSpecHash": "xVfasN/QfPk=",
   "success": true,
   "projectFilePath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\MiApp\\src\\MiApp.Application\\MiApp.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Nacho\\.nuget\\packages\\bcrypt.net-next\\4.0.2\\bcrypt.net-next.4.0.2.nupkg.sha512",
     "C:\\Users\\Nacho\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
     "C:\\Users\\Nacho\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.1\\fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",
     "C:\\Users\\Nacho\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",

@@ -22,6 +22,10 @@ public static class DependencyInjection
             cfg.AddBehavior(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
         });
 
+        // Registrar casos de uso específicos
+        services.AddScoped<MiApp.Application.UseCases.LoginUseCase>();
+        services.AddScoped<MiApp.Application.UseCases.RegisterUseCase>();
+
         return services;
     }
 }

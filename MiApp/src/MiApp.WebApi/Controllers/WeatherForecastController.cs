@@ -1,9 +1,11 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MiApp.WebApi.Controllers;
 
 [ApiController]
 [Route("[controller]")]
+[Authorize(Policy = "AdminOrUserPolicy")]
 public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]

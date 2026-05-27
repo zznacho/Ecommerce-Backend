@@ -93,8 +93,8 @@ namespace MiApp.Infrastructure.Persistence.Migrations
                 columns: new[] { "Id", "Email", "Name", "PasswordHash", "Role", "CreatedAt" },
                 values: new object[,]
                 {
-                    { new Guid("d1111111-0000-0000-0000-000000000001"), "admin@example.com", "Administrator", "$2a$10$CwTycUXWue0Thq9StjUM0uJ8hQ0/0VY8aYH8G1q1GdR1eF/3h6K6", "Admin", new DateTime(2026, 5, 26, 0, 0, 0, DateTimeKind.Utc) },
-                    { new Guid("d2222222-0000-0000-0000-000000000002"), "user@example.com", "Default User", "$2a$10$7s8h4eGg6Qp0a1b2c3d4eO0a1b2c3d4eFghIjKlmnOpQrStUvWxYZa", "User", new DateTime(2026, 5, 26, 0, 0, 0, DateTimeKind.Utc) }
+                    { new Guid("d1111111-0000-0000-0000-000000000001"), "admin@example.com", "Administrator", "$2a$11$jIQuJfIQjJtfd/NxG0VItejh1ZVZFe3TEB.7eWiHry4cJB99q2/KW", "Admin", new DateTime(2026, 5, 26, 0, 0, 0, DateTimeKind.Utc) },
+                    { new Guid("d2222222-0000-0000-0000-000000000002"), "user@example.com", "Default User", "$2a$11$p5UN0X1MasX/1RHaRiwGhehhkeb0bk0ozZewV4wfC/gFUc6Jf0046", "User", new DateTime(2026, 5, 26, 0, 0, 0, DateTimeKind.Utc) }
                 });
 
             migrationBuilder.CreateIndex(

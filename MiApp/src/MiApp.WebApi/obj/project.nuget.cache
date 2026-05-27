@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uH3ACLpz5x0=",
+  "dgSpecHash": "45OqHPv/vzU=",
   "success": true,
   "projectFilePath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApp\\src\\MiApp.WebApi\\MiApp.WebApi.csproj",
   "expectedPackageFiles": [
@@ -62,7 +62,7 @@
     "C:\\Users\\Nacho\\.nuget\\packages\\system.composition.runtime\\6.0.0\\system.composition.runtime.6.0.0.nupkg.sha512",
     "C:\\Users\\Nacho\\.nuget\\packages\\system.composition.typedparts\\6.0.0\\system.composition.typedparts.6.0.0.nupkg.sha512",
     "C:\\Users\\Nacho\\.nuget\\packages\\system.diagnostics.diagnosticsource\\10.0.0\\system.diagnostics.diagnosticsource.10.0.0.nupkg.sha512",
-    "C:\\Users\\Nacho\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.1.2\\system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512",
+    "C:\\Users\\Nacho\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.0.0\\system.identitymodel.tokens.jwt.8.0.0.nupkg.sha512",
     "C:\\Users\\Nacho\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
     "C:\\Users\\Nacho\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Nacho\\.nuget\\packages\\system.reflection.metadata\\6.0.1\\system.reflection.metadata.6.0.1.nupkg.sha512",
@@ -72,26 +72,5 @@
     "C:\\Users\\Nacho\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\Nacho\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "MiApp.WebApi depende de Microsoft.AspNetCore.Authentication.JwtBearer (>= 8.0.9), pero no se encontró Microsoft.AspNetCore.Authentication.JwtBearer 8.0.9. Se resolvió una mejor coincidencia aproximada de Microsoft.AspNetCore.Authentication.JwtBearer 8.0.10.",
-      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "MiApp.Infrastructure depende de System.IdentityModel.Tokens.Jwt (>= 6.37.1), pero no se encontró System.IdentityModel.Tokens.Jwt 6.37.1. Se resolvió una mejor coincidencia aproximada de System.IdentityModel.Tokens.Jwt 7.0.0.",
-      "libraryId": "System.IdentityModel.Tokens.Jwt",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

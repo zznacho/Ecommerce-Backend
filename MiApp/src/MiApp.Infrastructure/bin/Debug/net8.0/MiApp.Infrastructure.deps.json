@@ -15,7 +15,7 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.4",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0",
-          "System.IdentityModel.Tokens.Jwt": "7.0.0"
+          "System.IdentityModel.Tokens.Jwt": "8.0.0"
         },
         "runtime": {
           "MiApp.Infrastructure.dll": {}
@@ -742,15 +742,15 @@
           }
         }
       },
-      "System.IdentityModel.Tokens.Jwt/7.0.0": {
+      "System.IdentityModel.Tokens.Jwt/8.0.0": {
         "dependencies": {
           "Microsoft.IdentityModel.JsonWebTokens": "8.14.0",
           "Microsoft.IdentityModel.Tokens": "8.14.0"
         },
         "runtime": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.0.40911"
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.50716"
           }
         }
       },
@@ -1149,12 +1149,12 @@
       "path": "system.diagnostics.diagnosticsource/10.0.0",
       "hashPath": "system.diagnostics.diagnosticsource.10.0.0.nupkg.sha512"
     },
-    "System.IdentityModel.Tokens.Jwt/7.0.0": {
+    "System.IdentityModel.Tokens.Jwt/8.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3OpN2iJf8lxpzVeFeeZSLtR3co6uKBs3VudS3PkkgdX5WF9fqqdhRMYf7WbkxqWQP/9RpoFbD3RimhfJe3hlQQ==",
-      "path": "system.identitymodel.tokens.jwt/7.0.0",
-      "hashPath": "system.identitymodel.tokens.jwt.7.0.0.nupkg.sha512"
+      "sha512": "sha512-K0dNZoXiedkpkz8v8xj3jH5IeSa3iAPNu2OegePynCeG6wiLx7CvBfDa90hYOBJ58Y21tZFd9RLpzfS7rEaHlQ==",
+      "path": "system.identitymodel.tokens.jwt/8.0.0",
+      "hashPath": "system.identitymodel.tokens.jwt.8.0.0.nupkg.sha512"
     },
     "System.IO.Pipelines/6.0.3": {
       "type": "package",

@@ -1048,11 +1048,11 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "System.IdentityModel.Tokens.Jwt/7.0.0": {
+      "System.IdentityModel.Tokens.Jwt/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.IdentityModel.JsonWebTokens": "7.0.0",
-          "Microsoft.IdentityModel.Tokens": "7.0.0"
+          "Microsoft.IdentityModel.JsonWebTokens": "8.0.0",
+          "Microsoft.IdentityModel.Tokens": "8.0.0"
         },
         "compile": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
@@ -2719,15 +2719,13 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.IdentityModel.Tokens.Jwt/7.0.0": {
-      "sha512": "3OpN2iJf8lxpzVeFeeZSLtR3co6uKBs3VudS3PkkgdX5WF9fqqdhRMYf7WbkxqWQP/9RpoFbD3RimhfJe3hlQQ==",
+    "System.IdentityModel.Tokens.Jwt/8.0.0": {
+      "sha512": "K0dNZoXiedkpkz8v8xj3jH5IeSa3iAPNu2OegePynCeG6wiLx7CvBfDa90hYOBJ58Y21tZFd9RLpzfS7rEaHlQ==",
       "type": "package",
-      "path": "system.identitymodel.tokens.jwt/7.0.0",
+      "path": "system.identitymodel.tokens.jwt/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net461/System.IdentityModel.Tokens.Jwt.dll",
-        "lib/net461/System.IdentityModel.Tokens.Jwt.xml",
         "lib/net462/System.IdentityModel.Tokens.Jwt.dll",
         "lib/net462/System.IdentityModel.Tokens.Jwt.xml",
         "lib/net472/System.IdentityModel.Tokens.Jwt.dll",
@@ -2736,9 +2734,11 @@
         "lib/net6.0/System.IdentityModel.Tokens.Jwt.xml",
         "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll",
         "lib/net8.0/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/net9.0/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net9.0/System.IdentityModel.Tokens.Jwt.xml",
         "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll",
         "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.xml",
-        "system.identitymodel.tokens.jwt.7.0.0.nupkg.sha512",
+        "system.identitymodel.tokens.jwt.8.0.0.nupkg.sha512",
         "system.identitymodel.tokens.jwt.nuspec"
       ]
     },
@@ -3030,7 +3030,7 @@
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.4",
       "Microsoft.Extensions.Configuration.Abstractions >= 8.0.0",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 10.0.0",
-      "System.IdentityModel.Tokens.Jwt >= 6.37.1"
+      "System.IdentityModel.Tokens.Jwt >= 8.0.0"
     ]
   },
   "packageFolders": {
@@ -3039,11 +3039,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApp\\src\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj",
       "projectName": "MiApp.Infrastructure",
-      "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApp\\src\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Nacho\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApp\\src\\MiApp.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nacho\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3101,7 +3101,7 @@
           },
           "System.IdentityModel.Tokens.Jwt": {
             "target": "Package",
-            "version": "[6.37.1, )"
+            "version": "[8.0.0, )"
           }
         },
         "imports": [
@@ -3126,27 +3126,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.421/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "MiApp.Infrastructure depende de System.IdentityModel.Tokens.Jwt (>= 6.37.1), pero no se encontró System.IdentityModel.Tokens.Jwt 6.37.1. Se resolvió una mejor coincidencia aproximada de System.IdentityModel.Tokens.Jwt 7.0.0.",
-      "libraryId": "System.IdentityModel.Tokens.Jwt",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"System.IdentityModel.Tokens.Jwt\" 7.0.0 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
-      "libraryId": "System.IdentityModel.Tokens.Jwt",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

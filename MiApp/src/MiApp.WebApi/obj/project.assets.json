@@ -1188,11 +1188,11 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "System.IdentityModel.Tokens.Jwt/7.1.2": {
+      "System.IdentityModel.Tokens.Jwt/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.IdentityModel.JsonWebTokens": "7.1.2",
-          "Microsoft.IdentityModel.Tokens": "7.1.2"
+          "Microsoft.IdentityModel.JsonWebTokens": "8.0.0",
+          "Microsoft.IdentityModel.Tokens": "8.0.0"
         },
         "compile": {
           "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll": {
@@ -1385,7 +1385,7 @@
           "Microsoft.EntityFrameworkCore.Sqlite": "8.0.4",
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "10.0.0",
-          "System.IdentityModel.Tokens.Jwt": "6.37.1"
+          "System.IdentityModel.Tokens.Jwt": "8.0.0"
         },
         "compile": {
           "bin/placeholder/MiApp.Infrastructure.dll": {}
@@ -3280,15 +3280,13 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.IdentityModel.Tokens.Jwt/7.1.2": {
-      "sha512": "Thhbe1peAmtSBFaV/ohtykXiZSOkx59Da44hvtWfIMFofDA3M3LaVyjstACf2rKGn4dEDR2cUpRAZ0Xs/zB+7Q==",
+    "System.IdentityModel.Tokens.Jwt/8.0.0": {
+      "sha512": "K0dNZoXiedkpkz8v8xj3jH5IeSa3iAPNu2OegePynCeG6wiLx7CvBfDa90hYOBJ58Y21tZFd9RLpzfS7rEaHlQ==",
       "type": "package",
-      "path": "system.identitymodel.tokens.jwt/7.1.2",
+      "path": "system.identitymodel.tokens.jwt/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net461/System.IdentityModel.Tokens.Jwt.dll",
-        "lib/net461/System.IdentityModel.Tokens.Jwt.xml",
         "lib/net462/System.IdentityModel.Tokens.Jwt.dll",
         "lib/net462/System.IdentityModel.Tokens.Jwt.xml",
         "lib/net472/System.IdentityModel.Tokens.Jwt.dll",
@@ -3297,9 +3295,11 @@
         "lib/net6.0/System.IdentityModel.Tokens.Jwt.xml",
         "lib/net8.0/System.IdentityModel.Tokens.Jwt.dll",
         "lib/net8.0/System.IdentityModel.Tokens.Jwt.xml",
+        "lib/net9.0/System.IdentityModel.Tokens.Jwt.dll",
+        "lib/net9.0/System.IdentityModel.Tokens.Jwt.xml",
         "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.dll",
         "lib/netstandard2.0/System.IdentityModel.Tokens.Jwt.xml",
-        "system.identitymodel.tokens.jwt.7.1.2.nupkg.sha512",
+        "system.identitymodel.tokens.jwt.8.0.0.nupkg.sha512",
         "system.identitymodel.tokens.jwt.nuspec"
       ]
     },
@@ -3591,7 +3591,7 @@
     "net8.0": [
       "MiApp.Application >= 1.0.0",
       "MiApp.Infrastructure >= 1.0.0",
-      "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.9",
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.4",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
@@ -3624,8 +3624,8 @@
             "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApp\\src\\MiApp.Application\\MiApp.Application.csproj": {
               "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApp\\src\\MiApp.Application\\MiApp.Application.csproj"
             },
-            "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj"
+            "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApp\\src\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApp\\src\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj"
             }
           }
         }
@@ -3647,7 +3647,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
-            "version": "[8.0.9, )"
+            "version": "[8.0.10, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -3682,27 +3682,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.421/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "MiApp.WebApi depende de Microsoft.AspNetCore.Authentication.JwtBearer (>= 8.0.9), pero no se encontró Microsoft.AspNetCore.Authentication.JwtBearer 8.0.9. Se resolvió una mejor coincidencia aproximada de Microsoft.AspNetCore.Authentication.JwtBearer 8.0.10.",
-      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "MiApp.Infrastructure depende de System.IdentityModel.Tokens.Jwt (>= 6.37.1), pero no se encontró System.IdentityModel.Tokens.Jwt 6.37.1. Se resolvió una mejor coincidencia aproximada de System.IdentityModel.Tokens.Jwt 7.0.0.",
-      "libraryId": "System.IdentityModel.Tokens.Jwt",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

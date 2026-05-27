@@ -146,14 +146,14 @@
         }
       }
     },
-    "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj": {
+    "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApp\\src\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApp\\src\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj",
         "projectName": "MiApp.Infrastructure",
-        "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApp\\src\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Nacho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApp\\src\\MiApp.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nacho\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -211,7 +211,7 @@
             },
             "System.IdentityModel.Tokens.Jwt": {
               "target": "Package",
-              "version": "[6.37.1, )"
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -262,8 +262,8 @@
               "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApp\\src\\MiApp.Application\\MiApp.Application.csproj": {
                 "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApp\\src\\MiApp.Application\\MiApp.Application.csproj"
               },
-              "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj"
+              "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApp\\src\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApp\\src\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj"
               }
             }
           }
@@ -285,7 +285,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[8.0.9, )"
+              "version": "[8.0.10, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

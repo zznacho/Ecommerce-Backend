@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3AOyY5dbdO4=",
+  "dgSpecHash": "DZ6gqFzPqjc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApp\\src\\MiApp.Infrastructure\\MiApp.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nacho\\.nuget\\packages\\bcrypt.net-next\\4.0.2\\bcrypt.net-next.4.0.2.nupkg.sha512",
     "C:\\Users\\Nacho\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
@@ -53,7 +53,7 @@
     "C:\\Users\\Nacho\\.nuget\\packages\\system.composition.runtime\\6.0.0\\system.composition.runtime.6.0.0.nupkg.sha512",
     "C:\\Users\\Nacho\\.nuget\\packages\\system.composition.typedparts\\6.0.0\\system.composition.typedparts.6.0.0.nupkg.sha512",
     "C:\\Users\\Nacho\\.nuget\\packages\\system.diagnostics.diagnosticsource\\10.0.0\\system.diagnostics.diagnosticsource.10.0.0.nupkg.sha512",
-    "C:\\Users\\Nacho\\.nuget\\packages\\system.identitymodel.tokens.jwt\\7.0.0\\system.identitymodel.tokens.jwt.7.0.0.nupkg.sha512",
+    "C:\\Users\\Nacho\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.0.0\\system.identitymodel.tokens.jwt.8.0.0.nupkg.sha512",
     "C:\\Users\\Nacho\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
     "C:\\Users\\Nacho\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Nacho\\.nuget\\packages\\system.reflection.metadata\\6.0.1\\system.reflection.metadata.6.0.1.nupkg.sha512",
@@ -63,26 +63,5 @@
     "C:\\Users\\Nacho\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\Nacho\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "MiApp.Infrastructure depende de System.IdentityModel.Tokens.Jwt (>= 6.37.1), pero no se encontró System.IdentityModel.Tokens.Jwt 6.37.1. Se resolvió una mejor coincidencia aproximada de System.IdentityModel.Tokens.Jwt 7.0.0.",
-      "libraryId": "System.IdentityModel.Tokens.Jwt",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    },
-    {
-      "code": "NU1902",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "El paquete \"System.IdentityModel.Tokens.Jwt\" 7.0.0 tiene una vulnerabilidad de gravedad moderada conocida, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
-      "libraryId": "System.IdentityModel.Tokens.Jwt",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

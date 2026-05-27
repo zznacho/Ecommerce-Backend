@@ -3058,11 +3058,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApp\\src\\MiApp.Application\\MiApp.Application.csproj": {
-              "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApp\\src\\MiApp.Application\\MiApp.Application.csproj"
+            "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Application\\MiApp.Application.csproj": {
+              "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Application\\MiApp.Application.csproj"
             },
-            "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApp\\src\\MiApp.Domain\\MiApp.Domain.csproj": {
-              "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\MiApp\\src\\MiApp.Domain\\MiApp.Domain.csproj"
+            "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Domain\\MiApp.Domain.csproj": {
+              "projectPath": "C:\\Users\\Nacho\\Desktop\\inacio\\Estoy podrido\\Ecommerce-Backend\\miapp\\src\\MiApp.Domain\\MiApp.Domain.csproj"
             }
           }
         }

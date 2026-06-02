@@ -46,7 +46,7 @@ Este repositorio contiene dos proyectos principales:
 1. Abrir una terminal en la carpeta raíz del repositorio.
 2. Ejecutar:
    ```powershell
-   cd "C:\Users\Nacho\Desktop\inacio\Estoy podrido\Ecommerce-Backend\MiApp"
+   cd "Ecommerce-Backend\MiApp"
    dotnet restore
    dotnet build MiApp.sln
    dotnet ef database update --project src/MiApp.Infrastructure/MiApp.Infrastructure.csproj --startup-project src/MiApp.WebApi/MiApp.WebApi.csproj
